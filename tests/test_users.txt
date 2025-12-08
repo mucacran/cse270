@@ -1,0 +1,26 @@
+import requests
+
+
+BASE_URL = "http://127.0.0.1:8000"
+
+
+def test_users_valid_credentials_returns_200():
+    """The /users endpoint should return 200 for valid credentials."""
+    response = requests.get(
+        f"{BASE_URL}/users/",
+        params={"username": "admin", "password": "qwerty"},
+        timeout=5,
+    )
+
+    assert response.status_code == 200
+
+
+def test_users_invalid_credentials_returns_401():
+    """The /users endpoint should return 401 for invalid credentials."""
+    response = requests.get(
+        f"{BASE_URL}/users/",
+        params={"username": "admin", "password": "admin"},
+        timeout=5,
+    )
+
+    assert response.status_code == 401
