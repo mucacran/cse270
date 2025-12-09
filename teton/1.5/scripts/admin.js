@@ -17,13 +17,7 @@ async function login(username, password) {
   }
 
 async function checkcredentials(){
-    try {
-        await login(document.querySelector("#username").value, document.querySelector("#password").value);
-    } catch (error) {
-        console.error("Error during login:", error);
-        const errormsg = document.querySelector(".errorMessage");        
-        errormsg.innerText = "An error occurred during login. Please try again.";
-    }
+    await login(document.querySelector("#username").value, document.querySelector("#password").value);
 }
 
 function showhidelogin(){
