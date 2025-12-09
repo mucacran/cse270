@@ -2,6 +2,9 @@
 
 Este repositorio contiene varios proyectos de programación en Python para el curso CSE 270.
 
+> **🚀 New to this project? Start here:** [QUICKSTART.md](QUICKSTART.md)  
+> **📖 Full documentation:** [README.md](#) (English) | [README.es.md](README.es.md) (Español)
+
 ## ¿Qué es este proyecto? (What is this project?)
 
 Este repositorio incluye tres componentes principales:

@@ -1,5 +1,8 @@
 # CSE 270 - Proyectos de Programación Python
 
+> **🚀 ¿Nuevo en este proyecto? Empieza aquí:** [QUICKSTART.md](QUICKSTART.md)  
+> **📖 Documentación completa:** [README.md](README.md) (English) | [README.es.md](#) (Español)
+
 ## Introducción
 
 Este repositorio contiene ejercicios prácticos de programación en Python para el curso CSE 270. El objetivo principal es aprender a trabajar con listas, funciones, pruebas unitarias y desarrollo web con Django.
