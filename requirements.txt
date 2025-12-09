@@ -1,0 +1,12 @@
+# Django and Web Framework
+Django==4.2.1
+
+# Database
+psycopg2-binary==2.9.6
+
+# Testing
+pytest==7.3.1
+pytest-mock==3.10.0
+
+# Development
+django-extensions==3.2.3
