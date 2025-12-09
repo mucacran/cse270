@@ -16,8 +16,8 @@ async function login(username, password) {
     }
   }
 
-function checkcredentials(){
-    login(document.querySelector("#username").value, document.querySelector("#password").value);
+async function checkcredentials(){
+    await login(document.querySelector("#username").value, document.querySelector("#password").value);
 }
 
 function showhidelogin(){
